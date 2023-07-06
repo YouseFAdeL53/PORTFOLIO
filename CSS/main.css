@@ -1217,31 +1217,16 @@ body {
   padding: 5px;
   color: #FFF;
   font-weight: 500;
-  height: 180px;
+  height: 155px;
   text-align: center;
   font-size: 14px;
   letter-spacing: 1px;
-  border-radius: 3px;
+  border-radius: 30px;
   user-select: none;
+  opacity: 0.6;
+  transition: var(--trans);
 }
 
-.author::before,
-.author::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 100%;
-  border-width: 15px;
-  transform: translateX(-50%);
-  border-style: solid;
-}
-
-.author::before {
-  top: 0;
-  border-color: #000 transparent transparent transparent;
-}
-
-.author::after {
-  bottom: 0;
-  border-color: transparent transparent #000 transparent;
+.author:hover{
+  opacity: 1;
 }
