@@ -111,7 +111,7 @@ spanFonts.forEach((span) => {
 window.addEventListener("load", () => {
   setTimeout(() => {
     document.querySelector(".load-parent").classList.add("hide");
-  }, 5000)
+  }, 3000)
 })
 
 
